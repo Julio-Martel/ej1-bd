@@ -25,3 +25,9 @@ select * from alimentos where stock between 100 and 400;
 
 SELECT * FROM alimentos ORDER BY stock ASC;
 
+update alimentos
+set stock = 250
+where id = 1;
+
+select * from alimentos
+where id = 1;

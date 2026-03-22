@@ -23,3 +23,5 @@ select nombre, stock from alimentos;
 
 select * from alimentos where stock between 100 and 400;
 
+SELECT * FROM alimentos ORDER BY stock ASC;
+
